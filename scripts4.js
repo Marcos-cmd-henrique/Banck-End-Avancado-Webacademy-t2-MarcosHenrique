@@ -3,6 +3,7 @@ const b = 10
 const out = ('Quinze é' + (a+b) + ' \ne não ' + (2*a+b) + '.')
 console.log(out) */
 
+// literals , usando `` crazes e ${} para concatenar a variavel 
 /* const a = 5 
 const b = 10 
 const out = `Quinze é ${(a+b)} \ne não ${(2*a+b)}.`  
