@@ -22,7 +22,7 @@ const calc = {
 }
 console.log(JSON.stringify(calc)) */ 
 
-// estruturas, métodos de listas, funções 
+/* // estruturas, métodos de listas, funções 
 const n = 100 
 if(n > 10){ // > < >= <= == !=
     console.log('Teste de entrada no if.')
@@ -52,4 +52,4 @@ if(texto==0) // quando tem === ele ver o igual e o tipo
     const outraLista = ['a', 'b', 'd', 'e', 'c']
     for(let contador = 0; contador < outraLista.length; contador++) 
         console.log(`O elemento da vez é ${outraLista[contador]}.`) //template literais, ou template strings 
-    const testeLiteral = (`\`==="`")
+    const testeLiteral = (`\`==="`") */
