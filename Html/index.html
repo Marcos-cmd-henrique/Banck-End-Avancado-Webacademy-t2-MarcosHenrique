@@ -6,22 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeira Página de Back-End Avançado</title>
 
-    <script src="scripts.js" defer></script> 
-    <script src="scripts2.js" defer></script> 
-    <script src="scripts3.js" defer></script>
-    <script src="scripts4.js" defer></script>
-    <script src="scripts5.js" defer></script> 
-    <script src="scripts6.js" defer></script> 
+    <script src="js/scripts6.js" defer></script> 
+    
 
 </head>
 <body>
-
-    <h1>Formulário</h1>
-    <form action="#" name="form">
-        <input type="number" name="n1" id=""> 
-        <input type="number" name="n2" id=""> 
-        <input type="button" onclick="sum()">  
-    </form>
 
     <h1 id="titulo">Meu Título</h1>
     <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim voluptates sed nemo necessitatibus eveniet beatae in sit ipsam! In impedit consequuntur labore debitis soluta commodi quisquam similique necessitatibus, excepturi tenetur!</p>
@@ -33,6 +22,17 @@
     <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae doloremque enim et ducimus sit quas, ipsam id ab dolore ipsum totam cum quisquam tempore, eum dolorem rem animi ut non?</p> 
 
     <button id="btn">Clique Aqui!</button>
+
+    <h1>CALCULADORA</h1> 
+    <h3>Number Primary</h3>
+    <input type="number" name="n1" id="n1">
+    <h3>Number Second</h3>
+    <input type="number" name="n2" id="n2"> 
+    <input type="button" value="Somar" onclick="somar()"> 
+    <input type="button" value="Subtrair" onclick="subtrair()"> 
+    <input type="button" value="Multiplicar" onclick="multiplicar()"> 
+    <input type="button" value="Dividir" onclick="dividir()"> 
+    <div id="res">O resultado é</div> 
     
 </body>
 </html> 

@@ -62,7 +62,7 @@ const sock = new Product('Meia cinza', 12.49)
 sock.productDetails() 
  */
 
-class Product{                        // classe 
+/* class Product{                        // classe 
     constructor(name, price){         //métodos constructor. Criamos (atributos) 
         this.name = name              // usando o this esta referenciando algo da classe que esta fora do escopo. 
         this.price = price 
@@ -73,7 +73,7 @@ class Product{                        // classe
     static test(){
         console.log('testando método estático....')
     }              
-}
+} */
 
 
 
@@ -105,7 +105,7 @@ Product.test()  */
 
 //DOM - Docment Boject Model 
 
-console.log(document.getElementById('titulo')) 
+/* console.log(document.getElementById('titulo')) 
 const texts = document.querySelectorAll('.text') 
 console.log(texts)
 texts.forEach((data)=> console.log(data))
@@ -114,6 +114,14 @@ texts[0].textContent = 'Estou alterando o primeiro paragrafo.'
 texts[0].innerHTML = '<span>testando uma alteração....</span>'
 texts[1].style.backgroundColor = 'red'
 texts[2].remove()
+
+const button = document.querySelector('#btn')
+button.addEventListener */
+
+console.log(document.getElementById('titulo')) 
+const texts = document.querySelectorAll('.text') 
+console.log(texts)
+texts.forEach((data)=> console.log(data))
 
 const button = document.querySelector('#btn')
 button.addEventListener
