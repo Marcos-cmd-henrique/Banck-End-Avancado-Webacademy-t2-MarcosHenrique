@@ -58,9 +58,7 @@ console.log('comando que esta após setTimeout')    */
 console.log('Primeiro comando.')
 fs.readFile('./text.txt',comcallback) */
 
-
-//exercicio concluido
-/* function comcallback(){
+function comcallback(){
     const data = new Date()
     const h = data.getHours()
     const m = data.getMinutes()
@@ -71,4 +69,3 @@ fs.readFile('./text.txt',comcallback) */
 console.log(comcallback(), 500) 
 setTimeout(comcallback, 500)
 setInterval(comcallback, 500)
- */
