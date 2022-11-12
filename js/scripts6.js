@@ -118,13 +118,13 @@ texts[2].remove()
 const button = document.querySelector('#btn')
 button.addEventListener */
 
-console.log(document.getElementById('titulo')) 
+/* console.log(document.getElementById('titulo')) 
 const texts = document.querySelectorAll('.text') 
 console.log(texts)
 texts.forEach((data)=> console.log(data))
 
 const button = document.querySelector('#btn')
-button.addEventListener
+button.addEventListener */
 
 //callbacks 
 
