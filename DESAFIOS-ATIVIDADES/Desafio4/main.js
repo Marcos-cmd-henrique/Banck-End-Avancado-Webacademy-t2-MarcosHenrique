@@ -21,12 +21,10 @@ Training
 Blog
 About */
 
+let value = 10
 
-function somar(){
-    let num1 = 10
-    let num2 = 5 
-    res = parseInt(num1) + parseInt(num2)
+console.log(`Código a ser importado - Valor = ${value}\n`)
+
+export function soma() {
+  console.log(value + 5)
 }
-
-console.log(somar())
-console.log(res)
